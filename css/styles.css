@@ -555,6 +555,7 @@ button {
 .form {
     display: flex;
     align-items: flex-end;
+    gap: 24px;
 }
 
 .form-label {}
@@ -575,17 +576,21 @@ button {
     background-color: #2e2f42;
     color: #ffffff;
     padding-left: 16px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .footer-button {
-    margin-left: 24px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     color: #ffffff;
     border-radius: 4px;
     padding: 8px 24px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     background-color: #4d5ae5;
     display: flex;
@@ -593,9 +598,12 @@ button {
     justify-content: center;
     flex-direction: row;
     gap: 16px;
+    letter-spacing: 0.04em;
+    border: none;
 }
 .footer-button-icon {
     fill: #ffffff;
+    margin-left: 16px;
 }
 
 .form-input::placeholder {
