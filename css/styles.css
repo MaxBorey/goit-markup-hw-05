@@ -548,7 +548,6 @@ button {
 
 .footer-form-container {
     display: flex;
-    gap: 16px;
     margin-left: 80px;
     flex-direction: column
 }
@@ -561,6 +560,7 @@ button {
 .form-label {}
 
 .form-text {
+    margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
