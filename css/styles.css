@@ -573,7 +573,7 @@ button {
     border-radius: 4px;
     width: 264px;
     height: 40px;
-    background-color: #2e2f42;
+    background-color: transparent;
     color: #ffffff;
     padding-left: 16px;
     font-weight: 400;
