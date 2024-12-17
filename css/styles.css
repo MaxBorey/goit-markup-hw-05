@@ -743,4 +743,8 @@ button {
 .modal-textarea:focus {  
     border-color: #4D5AE5;
 }
+
+.container-modal-label-txt {
+    margin-bottom: 16px;
+}
 /* #endregion */
