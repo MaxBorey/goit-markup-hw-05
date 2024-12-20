@@ -489,6 +489,7 @@ button {
     display: flex;
     align-items: baseline;
     margin: 0 auto;
+    justify-content: center;
 }
 
 .container-footer {
@@ -596,7 +597,6 @@ button {
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    gap: 16px;
     letter-spacing: 0.04em;
     border: none;
 }
